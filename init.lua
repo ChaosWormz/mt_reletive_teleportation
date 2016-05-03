@@ -1,4 +1,4 @@
-minetest.register_chatcommand("tp", {
+minetest.register_chatcommand("move_to", {
 	params = "<Axis> <Number>",
 	description = "Relative Teleportation",
 	privs = {teleport = true},
